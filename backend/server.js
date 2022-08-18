@@ -21,4 +21,4 @@ const PORT = process.env.PORT || 5000;
 //     res.send("API is running")
 // })
 
-server.listen(5001, console.log("server is working and listening PORT 5001")); 
+server.listen(PORT, console.log('server is working and listening PORT ${PORT}')); 
